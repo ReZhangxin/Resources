@@ -1,6 +1,6 @@
 ## this is a test
 ```javascript
-test();
+test();//不是这样的
 function test()
 {
   while ( life > die )
