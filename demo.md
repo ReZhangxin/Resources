@@ -12,5 +12,6 @@ function test()
         love ++;
     }
 }
-test();
+test();//Are you kiding me?
+
 ```
