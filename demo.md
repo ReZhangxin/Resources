@@ -2,7 +2,7 @@
 ```javascript
 
 test();//不是这样的
-=======
+
 
 
 function test()
