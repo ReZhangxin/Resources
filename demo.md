@@ -12,6 +12,6 @@ function test()
         love ++;
     }
 }
-test();//Are you kiding me?
+test();//Are you kiding me? 又是一个测试
 
 ```
