@@ -8,3 +8,7 @@
 ## git add .
 ## git commit -m"描述"
 ## git push
+> 生成秘钥
+```
+$ ssh-keygen -t rsa -C "1307881527@qq.com"
+```
