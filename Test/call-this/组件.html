@@ -22,22 +22,24 @@
 <a href="javascript:void(0)" onclick="audio.next()">下一曲</a>
 <a href="javascript:void(0)" onclick="audio.prev()">上一曲</a>
 <span id="time">00:00</span>
+<input id="input" type="text">
+<div id="parent"></div>
 
 <script>
 
-    var xinBackground = {
-        imgs:[],
-        add:function(src){
-            this.imgs.push(src);
-        },
-        change:function(i,callback){
-            if(callback) callback(this.imgs[i]);
-        }
-    };
-    xinBackground.add("http://os8hd0fib.bkt.clouddn.com/pattern-icons.png");
-    xinBackground.change(new Date().getDate(),function(){
-        //自己决定怎么改
-    });
+//    var xinBackground = {
+//        imgs:[],
+//        add:function(src){
+//            this.imgs.push(src);
+//        },
+//        change:function(i,callback){
+//            if(callback) callback(this.imgs[i]);
+//        }
+//    };
+//    xinBackground.add("http://os8hd0fib.bkt.clouddn.com/pattern-icons.png");
+//    xinBackground.change(new Date().getDate(),function(){
+//        //自己决定怎么改
+//    });
 
    /*
    *    封装组件的步骤
@@ -133,10 +135,12 @@
     audio.add("http://osxfegy94.bkt.clouddn.com/05.mp3");
     audio.add("http://osxfegy94.bkt.clouddn.com/06.mp3");
     audio.add("http://osxfegy94.bkt.clouddn.com/07.mp3");
-    audio.time(function(){
+    audio.time(function(time){
         document.getElementById("time").innerHTML = time;
+        document.getElementById("input").value =time;
         //执行ajax 写入
         //背景改色
+
     });
     function playStop(obj){
         var text = obj.innerHTML;

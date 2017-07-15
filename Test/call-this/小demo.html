@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+        #box{
+            width:500px;height:500px;border:1px solid #666;
+
+        }
+    </style>
+</head>
+<body>
+<img src="http://os8hd0fib.bkt.clouddn.com/loveyou.jpg" id="box">
+<input id="input" type="text">
+<script>
+
+    var xinBackground = {
+        imgs:[],
+        add:function(src){
+            this.imgs.push(src);
+        },
+        change:function(i,callback){
+            if(callback) callback(this.imgs[i]);
+        }
+    };
+    xinBackground.add("http://os8hd0fib.bkt.clouddn.com/loveyou.jpg");
+    xinBackground.add("http://os8hd0fib.bkt.clouddn.com/pattern-icons.png");
+    xinBackground.change(0,function(){
+        //自己决定怎么改
+
+        document.getElementById("box").src =0;
+
+    });
+
+   /*
+   *    封装组件的步骤
+   *    1. 有页面原型
+   *    2. 学会拆分
+   *    3. 动态化
+   *
+   *
+   *    音乐播放器组件
+   *
+   *    1：创建音乐播放器
+   *    2：播放音乐
+   *    3：暂停音乐
+   *    4：显示时间
+   *    5：音量的控制
+   *    6：进度展示
+   *    7：上一首下一首
+   *    8：添加音乐
+   *    9：静音
+   *    10：歌词
+   *
+   * */
+
+
+</script>
+
+
+</body>
+</html>
