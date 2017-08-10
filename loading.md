@@ -1,4 +1,4 @@
-```js
+```html
 <style>
 
     @-webkit-keyframes rotate_pacman_half_up {
