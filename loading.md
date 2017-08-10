@@ -1,31 +1,15 @@
 ```html
 <style>
 
-@-webkit-keyframes rotate_pacman_half_up {
-	0% {transform: rotate(270deg);}
-	50% {transform: rotate(360deg);}
-	100% {transform: rotate(270deg);}	
-}
-
 @keyframes rotate_pacman_half_up {
 	0% {transform: rotate(270deg);}
 	50% {transform: rotate(360deg);}
 	100% {transform: rotate(270deg);} 
 }
-
-@-webkit-keyframes rotate_pacman_half_down {
-	0% {transform: rotate(90deg);}
-	50% {transform: rotate(0deg);}
-	100% {transform: rotate(90deg);} 
-}
 @keyframes rotate_pacman_half_down {
 	0% {transform: rotate(90deg);}
 	50% {transform: rotate(0deg);}
 	100% {transform: rotate(90deg);} 
-}
-@-webkit-keyframes pacman-balls {
-	75% {opacity: 0.7;}
-	100% {transform: translate(-100px, -6.25px);} 
 }
 @keyframes pacman-balls {
 	75% {opacity: 0.7; }
@@ -81,8 +65,5 @@
     <div></div>
     <div></div>
 </div>
-
-
-
 
 ```
