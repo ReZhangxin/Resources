@@ -2,3 +2,4 @@
 ### [在线画图](https://www.processon.com/diagrams)
 ### [html5](http://720yun.com/)
 ### [css设计](http://www.instantshift.com/)
+### [H5音乐播放器](https://github.com/MoePlayer/APlayer)
