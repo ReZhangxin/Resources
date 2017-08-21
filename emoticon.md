@@ -3,7 +3,9 @@
 
 [keycode](http://keycode.info/) :smirk:
 
+:sob:
 
+:joy:
 
 :bowtie:
 :smile:
@@ -47,8 +49,6 @@
 :cold_sweat:
 :persevere:
 :cry:
-:sob:
-:joy:
 :astonished:
 :scream:
 :neckbeard:
