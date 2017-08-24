@@ -1,7 +1,11 @@
+[简书好文](http://www.jianshu.com/p/072587b47515?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends)
+
 # Git 简易指南
+
 日常常用 Git 命令。 
 
 # 什么是 Git
+
 > Git 是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。
 
 # 常见的 Git 代码托管平台
