@@ -17,7 +17,7 @@ git config --global user.email 1307881527@qq.com
 成功提示Hi ReZhangxin! You've successfully authenticated, but GitHub does not provide shell access.
 （成功的钥匙图标是绿的不是黑的）
 
-首次puh的时候要写默认的`origin master`
+## 第三步：首次puh的时候要写默认的`origin master`
 
 ```
 git push origin master
