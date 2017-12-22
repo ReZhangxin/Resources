@@ -3,7 +3,7 @@
 ## 第一步配置全局用户名
 
 ```shell
-git config --global user.name ReZhangxin
+git config --global user.name ReZhangxin / railgunxin
 git config --global user.email 1307881527@qq.com
 
 //查询 git config user.name
@@ -16,7 +16,7 @@ git config --global user.email 1307881527@qq.com
 ```
 git config --global credential.helper store
 ```
-- 验证：$ ssh -T git@github.com
+- 验证：$ ssh -T git@github.com /ssh -T git@git.coding.net
 成功提示Hi ReZhangxin! You've successfully authenticated, but GitHub does not provide shell access.
 （成功的钥匙图标是绿的不是黑的）
 
